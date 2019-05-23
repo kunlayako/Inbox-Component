@@ -4,10 +4,31 @@
   <mat-card>{{obj.body}}</mat-card>
 </div> -->
 
+<!-- <mat-card>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+      <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+      <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+    </div>
+  </div>
+</mat-card> -->
 
 <mat-card *ngFor="let obj of messages">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="avatar">A</div>
+    </div>
+    <div class="col-sm-4">
+      <div class="fromName"> {{obj.from.name}}</div>
+      <div class="subject"> {{obj.subject}}</div>
+      <div class="body">{{obj.body}}</div>
+
+    </div>
+  </div>
+  <!-- <div class="avatar">A</div>
   <div class="fromName"> {{obj.from.name}}</div>
   <div class="subject"> {{obj.subject}}</div>
-  <div class="body">{{obj.body}}</div>
+  <div class="body">{{obj.body}}</div> -->
 
 </mat-card>

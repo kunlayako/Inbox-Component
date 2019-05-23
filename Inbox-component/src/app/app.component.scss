@@ -1,5 +1,39 @@
 .mat-card{
     border-bottom-style: solid;
-    border-bottom-color: #F9F5F5;
+    border-bottom-color: #F2F2F2;
     border-bottom-width: 1px;
+    // font-family: 'Roboto', sans-serif;
 }
+
+.fromName{
+    font-family: 'Roboto', sans-serif, thin;
+
+}
+.subject{
+    font-family: 'Roboto', sans-serif, light;
+}
+
+.body{
+    font-family: 'Roboto', sans-serif, thin;
+    color:gray;
+}
+
+.avatar{
+    font-family: 'Roboto', sans-serif, thin;
+    display: inline-block;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    color: white;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+   background-color:pink;
+    
+    &.large {
+      height: 32px;
+      width: 32px;
+      line-height: 32px;
+    }
+  }
+  
