@@ -1,15 +1,6 @@
-// .mat-card {
-//   border-bottom-style: solid;
-//   border-bottom-color: #f2f2f2;
-//   border-bottom-width: 1px;
-//   // font-family: 'Roboto', sans-serif;
-// }
-
-.fromName {
-  font-family: "Roboto", sans-serif, thin;
-}
+.fromName,
 .subject {
-  font-family: "Roboto", sans-serif, light;
+  font-family: "Roboto", sans-serif, thin;
 }
 
 .body,
@@ -22,25 +13,20 @@
   overflow: hidden;
   width: 30em;
 }
+.time {
+  font-size: 12px;
+}
 .filter {
   font-family: "Roboto", sans-serif, thin;
   color: #0073d6;
 }
+
 .inbox {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 20px;
 }
 
-// .example-viewport {
-//   height: 400px;
-//   width: 1000px;
-//   border: 1px solid black;
-// }
-
-.example-item {
-  height: 50px;
-}
 .avatar {
   font-family: "Roboto", sans-serif, thin;
   display: inline-block;
