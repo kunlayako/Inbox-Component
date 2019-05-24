@@ -16,6 +16,13 @@
 .body{
     font-family: 'Roboto', sans-serif, thin;
     color:gray;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    width: 30em;
+  
 }
 
 .avatar{
