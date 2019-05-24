@@ -7,7 +7,6 @@ import { MatCardModule } from '@angular/material/card';
 import { GridModule } from '@progress/kendo-angular-grid';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from '@progress/kendo-angular-layout';
-import { MatDividerModule } from '@angular/material/divider';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { ScrollDispatchModule } from '@angular/cdk/scrolling';
 import { ScrollingModule, ScrollDispatcher } from '@angular/cdk/scrolling';
@@ -26,7 +25,6 @@ import { MatMenuModule } from '@angular/material';
     GridModule,
     BrowserAnimationsModule,
     LayoutModule,
-    MatDividerModule,
     MDBBootstrapModule.forRoot(),
     ScrollDispatchModule,
     ScrollingModule,
