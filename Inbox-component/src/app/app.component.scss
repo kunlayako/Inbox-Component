@@ -1,46 +1,61 @@
-.mat-card{
-    border-bottom-style: solid;
-    border-bottom-color: #F2F2F2;
-    border-bottom-width: 1px;
-    // font-family: 'Roboto', sans-serif;
+.mat-card {
+  border-bottom-style: solid;
+  border-bottom-color: #f2f2f2;
+  border-bottom-width: 1px;
+  // font-family: 'Roboto', sans-serif;
 }
 
-.fromName{
-    font-family: 'Roboto', sans-serif, thin;
-
+.fromName {
+  font-family: "Roboto", sans-serif, thin;
 }
-.subject{
-    font-family: 'Roboto', sans-serif, light;
-}
-
-.body{
-    font-family: 'Roboto', sans-serif, thin;
-    color:gray;
-
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    display: block;
-    overflow: hidden;
-    width: 30em;
-  
+.subject {
+  font-family: "Roboto", sans-serif, light;
 }
 
-.avatar{
-    font-family: 'Roboto', sans-serif, thin;
-    display: inline-block;
-    border-radius: 50%;
-    height: 28px;
-    width: 28px;
-    color: white;
-    text-align: center;
-    line-height: 28px;
-    font-size: 12px;
-   background-color:pink;
-    
-    &.large {
-      height: 32px;
-      width: 32px;
-      line-height: 32px;
-    }
+.body,
+.time {
+  font-family: "Roboto", sans-serif, thin;
+  color: gray;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  overflow: hidden;
+  width: 30em;
+}
+.filter {
+  font-family: "Roboto", sans-serif, thin;
+  color: #0073d6;
+}
+.inbox {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.example-viewport {
+  height: 400px;
+  width: 1000px;
+  border: 1px solid black;
+}
+
+.example-item {
+  height: 50px;
+}
+.avatar {
+  font-family: "Roboto", sans-serif, thin;
+  display: inline-block;
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+  color: white;
+  text-align: center;
+  line-height: 28px;
+  font-size: 12px;
+  background-color: darkgreen;
+
+  &.large {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
   }
-  
+}

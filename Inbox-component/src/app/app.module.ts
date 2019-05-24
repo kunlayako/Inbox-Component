@@ -10,7 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from '@progress/kendo-angular-layout';
 import { MatDividerModule } from '@angular/material/divider';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
-
+import { ScrollDispatchModule } from '@angular/cdk/scrolling';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,8 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     BrowserAnimationsModule,
     LayoutModule,
     MatDividerModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    ScrollDispatchModule
   ],
   schemas: [NO_ERRORS_SCHEMA],
   providers: [],

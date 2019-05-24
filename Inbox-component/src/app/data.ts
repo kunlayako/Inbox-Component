@@ -1,6 +1,7 @@
 export const messages =
     [
         {
+            "time": "10.11",
             "from": {
                 "name": "Now TV",
                 "email": "nowtv@test.com"
@@ -9,6 +10,7 @@ export const messages =
             "body": "Oscar winners Sir Anthony Hopkins and Ed Harris join an impressive cast boasting the likes of Thandie Newton, James Marsden and Jeffrey Wright."
         },
         {
+            "time": "11.11",
             "from": {
                 "name": "Investopedia Terms",
                 "email": "investopedia@test.com"
@@ -17,6 +19,7 @@ export const messages =
             "body": "Fibonacci retracement is a term used in technical analysis that refers to areas of support (price stops going lower) or resistance (price stops going higher)."
         },
         {
+            "time": "12.11",
             "from": {
                 "name": "ASICS Greater Manchester Marathon ",
                 "email": "events@human-race.co.uk"
