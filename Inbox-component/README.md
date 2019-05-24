@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9. to be able to use with virtual scrolling 
 
+![Alt text](.../src/images/Screen Shot 2019-05-24 at 11.26.51 PM.png?raw=true "Title")
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
