@@ -9,6 +9,5 @@ import { MatDividerModule } from '@angular/material/divider';
 export class AppComponent {
   title = 'Inbox-component';
   messages = messages;
-  items = Array.from({ length: 100000 }).map((_, i) => `Item #${i}`);
 
 }

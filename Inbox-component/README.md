@@ -21,3 +21,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Conclusions and future work
+Many different adaptations, tests, and experiments have been left for the future due to lack
+of time such as implementation on clickable of each email and Filter options. Future work concerns deeper analysis of particular mechanisms,new proposals to try different methods, or simply curiosity.
+

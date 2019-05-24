@@ -1,11 +1,13 @@
 .fromName,
-.subject {
+.subject,
+.body,
+.time,
+.filter,
+.avatar {
   font-family: "Roboto", sans-serif, thin;
 }
-
 .body,
 .time {
-  font-family: "Roboto", sans-serif, thin;
   color: gray;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -17,10 +19,8 @@
   font-size: 12px;
 }
 .filter {
-  font-family: "Roboto", sans-serif, thin;
   color: #0073d6;
 }
-
 .inbox {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -28,7 +28,6 @@
 }
 
 .avatar {
-  font-family: "Roboto", sans-serif, thin;
   display: inline-block;
   border-radius: 50%;
   height: 28px;
