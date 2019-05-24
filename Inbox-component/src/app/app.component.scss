@@ -1,9 +1,9 @@
-.mat-card {
-  border-bottom-style: solid;
-  border-bottom-color: #f2f2f2;
-  border-bottom-width: 1px;
-  // font-family: 'Roboto', sans-serif;
-}
+// .mat-card {
+//   border-bottom-style: solid;
+//   border-bottom-color: #f2f2f2;
+//   border-bottom-width: 1px;
+//   // font-family: 'Roboto', sans-serif;
+// }
 
 .fromName {
   font-family: "Roboto", sans-serif, thin;
@@ -58,4 +58,8 @@
     width: 32px;
     line-height: 32px;
   }
+}
+
+.container {
+  padding: 10px;
 }
