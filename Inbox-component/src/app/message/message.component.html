@@ -1,0 +1,7 @@
+<cdk-virtual-scroll-viewport class="list-container lg" [itemSize]="52.5">
+    <div *cdkVirtualFor="let state of messages" class="list-group-item">
+        <div class="state">{{state.from.name}}</div>
+        <div class="capital">{{state.subject}}</div>
+        <div class="capital">{{state.body}}</div>
+    </div>
+</cdk-virtual-scroll-viewport>

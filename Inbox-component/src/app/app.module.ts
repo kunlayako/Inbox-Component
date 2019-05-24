@@ -11,6 +11,7 @@ import { LayoutModule } from '@progress/kendo-angular-layout';
 import { MatDividerModule } from '@angular/material/divider';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { ScrollDispatchModule } from '@angular/cdk/scrolling';
+import { ScrollingModule, ScrollDispatcher } from '@angular/cdk/scrolling';
 
 @NgModule({
   declarations: [
@@ -26,10 +27,12 @@ import { ScrollDispatchModule } from '@angular/cdk/scrolling';
     LayoutModule,
     MatDividerModule,
     MDBBootstrapModule.forRoot(),
-    ScrollDispatchModule
+    ScrollDispatchModule,
+    ScrollingModule,
   ],
   schemas: [NO_ERRORS_SCHEMA],
-  providers: [],
+  providers: [ScrollDispatcher],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }

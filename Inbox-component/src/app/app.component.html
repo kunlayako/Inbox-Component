@@ -45,3 +45,55 @@
     </div>
   </div>
 </mat-card>
+
+
+<cdk-virtual-scroll-viewport class="list-container lg" [itemSize]="52.5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-6">
+        <div class="inbox">
+          Inbox
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="filter">
+          Filter
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div *cdkVirtualFor="let message of messages" class="list-group-item">
+    <!-- <div class="state">{{state.from.name}}</div>
+    <div class="capital">{{state.subject}}</div>
+    <div class="capital">{{state.body}}</div> -->
+    <div class=" container">
+      <div class="row">
+        <div class="col-md-1">
+          <div class="avatar">
+            <!-- {{obj.from.name}} -->
+            <span style=" overflow:hidden; display:block;width: 28px;overflow: hidden; white-space: nowrap;">
+              {{message.from.name}}
+            </span>
+
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class=""> {{message.from.name}}</div>
+          <div class=""> {{message.subject}}</div>
+          <div class="">{{message.body}}</div>
+        </div>
+        <div class="col-3">
+          <div class="fromName"> </div>
+          <div class="time">
+            {{message.time}}
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</cdk-virtual-scroll-viewport>
