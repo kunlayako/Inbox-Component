@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9. to be able to use with virtual scrolling 
 
-![Alt text](.../src/images/Screen Shot 2019-05-24 at 11.26.51 PM.png?raw=true "Title")
+<img width="1440" alt="screenshot" src="https://user-images.githubusercontent.com/16693442/58366396-cc3dbd00-7efb-11e9-91e4-af87ba902bf6.png">
 
 ## Development server
 
